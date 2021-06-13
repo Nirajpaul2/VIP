@@ -26,6 +26,7 @@
 		0F11A90826768E8900D8C586 /* TitlesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F11A90726768E8900D8C586 /* TitlesPresenter.swift */; };
 		0F11A90A26768E9000D8C586 /* TitlesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F11A90926768E9000D8C586 /* TitlesRouter.swift */; };
 		0F11A90C26768E9C00D8C586 /* TitlesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F11A90B26768E9C00D8C586 /* TitlesConfigurator.swift */; };
+		0F11A90E2676985B00D8C586 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F11A90D2676985B00D8C586 /* Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		0F11A90726768E8900D8C586 /* TitlesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesPresenter.swift; sourceTree = "<group>"; };
 		0F11A90926768E9000D8C586 /* TitlesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesRouter.swift; sourceTree = "<group>"; };
 		0F11A90B26768E9C00D8C586 /* TitlesConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlesConfigurator.swift; sourceTree = "<group>"; };
+		0F11A90D2676985B00D8C586 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				0F11A8D72676895500D8C586 /* Assets.xcassets */,
 				0F11A8D92676895500D8C586 /* LaunchScreen.storyboard */,
 				0F11A8DC2676895500D8C586 /* Info.plist */,
+				0F11A90D2676985B00D8C586 /* Extensions.swift */,
 			);
 			path = "Supporting Files";
 			sourceTree = "<group>";
@@ -163,12 +166,12 @@
 		0F11A8F226768D2500D8C586 /* Title Detail */ = {
 			isa = PBXGroup;
 			children = (
-				0F11A8F426768D5800D8C586 /* TitleDetailConfigurator.swift */,
-				0F11A8F726768D7400D8C586 /* TitleDetailRouter.swift */,
-				0F11A8F926768D8400D8C586 /* TitleDetailPresenter.swift */,
-				0F11A8FB26768E2B00D8C586 /* TitleDetailInteractor.swift */,
-				0F11A8FD26768E4300D8C586 /* TitleDetailViewController.swift */,
 				0F11A8FF26768E4B00D8C586 /* TitleDetailView.swift */,
+				0F11A8FD26768E4300D8C586 /* TitleDetailViewController.swift */,
+				0F11A8FB26768E2B00D8C586 /* TitleDetailInteractor.swift */,
+				0F11A8F926768D8400D8C586 /* TitleDetailPresenter.swift */,
+				0F11A8F726768D7400D8C586 /* TitleDetailRouter.swift */,
+				0F11A8F426768D5800D8C586 /* TitleDetailConfigurator.swift */,
 			);
 			path = "Title Detail";
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0F11A8F826768D7400D8C586 /* TitleDetailRouter.swift in Sources */,
+				0F11A90E2676985B00D8C586 /* Extensions.swift in Sources */,
 				0F11A8ED26768ADD00D8C586 /* TitlesService.swift in Sources */,
 				0F11A90C26768E9C00D8C586 /* TitlesConfigurator.swift in Sources */,
 				0F11A8FA26768D8400D8C586 /* TitleDetailPresenter.swift in Sources */,
